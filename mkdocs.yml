@@ -1,0 +1,42 @@
+theme: databio
+
+site_name: Energy Utilization Drives the Fate of Cells in Arterial Disease
+site_author: Jason Smith
+site_url: https://CAAH-analysis.readthedocs.io/en/latest/
+repo_url: https://github.com/jpsmith5/CAAH_analysis
+
+markdown_extensions:
+  - pymdownx.details
+  - attr_list
+
+nav:
+  - Introduction: 
+    - About: 'README.md'
+    - 1. Process raw data: '1.Process_Raw_Data.md'
+    - 2. Create analysis environment: '2.Create_Analysis_Environment.md'
+  - "<i>Ren1<sup>c+/-</sup>or<sup>-/-</sup>;Ren1<sup>cCre</sup>;R26R<sup>mTmG</sup></i> RNA-seq Data Analysis":
+    - About: '3.Analyze_Ren1c_Mice.md'
+    - 1. Initialize R environment: '3A.Initialize_R.md'
+    - 2. Create Seurat objects: '3B.Create_Seurat_Object.md'
+    - 3. Annotate clusters: '3C.Annotate_Clusters.md'
+    - 4. Construct trajectory: '3D.Construct_Trajectory.md'
+    - 5. Construct GRN: '3E.Construct_GRN.md'
+    - 6. Score gene signatures: '3F.Score_Gene_Signatures.md'
+  - "<i>SMMHC<sup>CreERT2</sup>;R26R<sup>tdTomato</sup>;Ren1<sup>cYFP</sup></i> Multiomic Data Analysis": 
+    - About: '4.Analyze_SMMHC_Mice.md'
+    - 1. Initialize R environment: '4A.Initialize_R.md'
+    - 2. Create Seurat objects: '4B.Create_Seurat_Object.md'
+    - 3. Annotate clusters: '4C.Annotate_Clusters.md'
+    - 4. Analyze TFs: '4D.Analyze_TFs.md'
+    - 5. Construct trajectory: '4E.Construct_Trajectory.md'
+    - 6. Construct GRN: '4F.Construct_GRN.md'
+    - 7. Score gene signatures: '4G.Score_Gene_Signatures.md'
+
+plugins:
+  - search
+
+navbar:
+  right:
+  - text: Software & Data
+    icon: fa-code fa-lg
+    href: https://github.com/jpsmith5/
