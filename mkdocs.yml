@@ -1,6 +1,6 @@
 theme: databio
 
-site_name: Energy Utilization Drives the Fate of Cells in Arterial Disease
+site_name: Renal Hypoxia and Metabolic Remodeling in Chronic RAAS Suppression
 site_author: Jason Smith
 site_url: https://CAAH-analysis.readthedocs.io/en/latest/
 repo_url: https://github.com/jpsmith5/CAAH_analysis
@@ -22,7 +22,7 @@ nav:
     - 4. Construct trajectory: '3D.Construct_Trajectory.md'
     - 5. Construct GRN: '3E.Construct_GRN.md'
     - 6. Score gene signatures: '3F.Score_Gene_Signatures.md'
-  - "<i>SMMHC<sup>CreERT2</sup>;R26R<sup>tdTomato</sup>;Ren1<sup>cYFP</sup></i> Multiomic Data Analysis": 
+  - "<i>SMMHC<sup>CreERT2</sup>;R26R<sup>tdTomato</sup>;Ren1<sup>cYFP</sup></i> Multiomic Data Analysis":
     - About: '4.Analyze_SMMHC_Mice.md'
     - 1. Initialize R environment: '4A.Initialize_R.md'
     - 2. Create Seurat objects: '4B.Create_Seurat_Object.md'
@@ -31,6 +31,23 @@ nav:
     - 5. Construct trajectory: '4E.Construct_Trajectory.md'
     - 6. Construct GRN: '4F.Construct_GRN.md'
     - 7. Score gene signatures: '4G.Score_Gene_Signatures.md'
+  - "Metabolic Pathway Analysis":
+    - About: '5.Analyze_Metabolic_Pathways.md'
+    - 1. Metabolic gene sets and functions: '5A.Metabolic_Functions.md'
+    - 2. Score metabolic pathways: '5B.Score_Metabolic_Pathways.md'
+    - 3. FAO sub-signature decomposition: '5C.FAO_Decomposition.md'
+  - "CAAH Molecular Signature":
+    - About: '6.CAAH_Signature.md'
+    - 1. Derive 10-gene signature: '6A.Derive_CAAH_Signature.md'
+    - 2. ROC analysis: '6B.ROC_Analysis.md'
+    - 3. CKD273 comparison: '6C.CKD273_Comparison.md'
+  - "Signature Validation":
+    - About: '7.Validation.md'
+    - 1. ERCB microarray analysis: '7A.ERCB_Analysis.md'
+    - 2. KPMP data extraction: '7B.KPMP_Query.md'
+    - 3. KPMP figures: '7C.KPMP_Figures.md'
+    - 4. SISKA atlas extraction: '7D.SISKA_Extraction.md'
+    - 5. SISKA ACEi analysis: '7E.SISKA_Analysis.md'
 
 plugins:
   - search
